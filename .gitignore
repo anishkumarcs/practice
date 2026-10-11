@@ -1,0 +1,33 @@
+
+# Dependencies
+/node_modules
+
+# Production build output
+/dist
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Package manager caches
+.npm
+.pnpm-store
+
+# Test coverage
+/coverage
+
+# Local development settings
+.DS_Store
+*.local
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
